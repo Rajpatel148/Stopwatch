@@ -85,3 +85,31 @@ lapList.addEventListener("click", (e) => {
      }
 });
  
+// Keyboard shortcuts for accessing buttons
+document.addEventListener("keydown", (e) => {
+     // Use toLowerCase to handle uppercase input
+     switch (e.key.toLowerCase()) {
+       case "s":
+         // 'S' for Start
+         start.click();
+         break;
+       case "x":
+         // 'X' for Stop
+         stop.click();
+         break;
+       case "r":
+         // 'R' for Reset
+         reset.click();
+         break;
+       case "l":
+         // 'L' for Lap
+         lap.click();
+         break;
+       case "c":
+         // 'C' for Clear All
+         clear.click();
+         break;
+       default:
+         break;
+     }
+   });

@@ -15,7 +15,7 @@ body {
   align-items: center;
 }
 .container {
-  width: 25rem;
+  width: 30rem;
   height: fit-content;
   background-color: #181825;
   padding: 2rem;
@@ -36,7 +36,7 @@ body {
 
 .display {
   font-family: "Courier New", Courier, monospace;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 700;
   color: #f38ba8;
   text-align: center;
